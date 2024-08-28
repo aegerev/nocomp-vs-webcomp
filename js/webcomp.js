@@ -11,11 +11,11 @@ class Book extends HTMLElement {
         
         this.innerHTML = `
             <div class="book-card">
-                <p class="product-name">📖${name}</p>
-                <p class="product-author">👨‍🎓${author}</p>
-                <p class="product-publication">🎟️${publication}</p>
-                <p class="product-rating">🍅${rating}</p>
-                <p class="product-description">🔍${description}</p>
+                <p class="book-name">📖${name}</p>
+                <p class="book-author">👨‍🎓${author}</p>
+                <p class="book-publication">🎟️${publication}</p>
+                <p class="book-rating">🍅${rating}</p>
+                <p class="book-description">🔍${description}</p>
             </div>
         `;
     }
