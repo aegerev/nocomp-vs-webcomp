@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    background-color: #FFD800;
+    background-color: #D98719;
 }
 
 
@@ -46,3 +46,26 @@ nav a:hover {
     font-style: italic;
     color: #008080;
 }
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.book-card {
+    padding: 0rem 1rem;
+    width: 25vw;
+    border: 2px solid blue;
+}
+
+.book-name {
+    font-weight: bold;
+    font-size: 20px;
+    color: yellow;
+}
+
+.book-description {
+    font-size: 12px;
+}
+
